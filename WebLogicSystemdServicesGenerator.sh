@@ -591,13 +591,13 @@ for e in `ls $ohsdomainpath/config/fmwconfig/components/OHS/instances/`; do
                 echo "weblogic ALL=(ALL) NOPASSWD: /usr/bin/systemctl start $e.service, /usr/bin/systemctl stop $e.service, /usr/bin/systemctl status $e.service -l"          
 
 done
-        echo "All webLogic + OHS standalone services have been configured"
+        echo "All WebLogic and OHS standalone services have been configured"
 exit 0
        ;;
  
     [nN][oO]|[nN])
  echo "No"
-	echo "All webLogic services have been configured"
+	echo "All WebLogic services have been configured"
 	exit 0
        ;;
  
