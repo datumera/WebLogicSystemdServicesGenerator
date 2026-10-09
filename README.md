@@ -1,6 +1,6 @@
 # WebLogic & OHS systemd Service Generator
 
-A Bash utility script designed to automate the parsing of Oracle WebLogic Server domains and the creation of **systemd unit files**, **WLST automation scripts**, and **control wrappers** for WebLogic Server instances, NodeManagers, and Oracle HTTP Server (OHS) instances[cite: 1].
+A Bash utility script designed to automate the parsing of Oracle WebLogic Server domains and the creation of **systemd unit files**, **WLST automation scripts**, and **control wrappers** for WebLogic Server instances, NodeManagers, and Oracle HTTP Server (OHS) instances.
 
 Created by **dAtUmErA**.
 
